@@ -1,0 +1,111 @@
+body {
+    background-image: url('https://iili.io/H1URKaS.gif');
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+/* About Section Start */
+#aboutMe {
+    background-color: #ffffff;
+}
+
+#aboutMe .col {
+    padding: 0;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+#aboutMe .col > .about-container {
+    padding: 0.5rem 1rem;
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.75);
+    
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+#aboutMe .col:first-child {
+    padding-left: 1rem;
+    justify-content: flex-start;
+    background-image: url('../images/about/me-left.png');
+    background-size: auto 90%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+#aboutMe .col:first-child .description {
+    text-align: justify;
+}
+
+#aboutMe .col:last-child {
+    padding-right: 1rem;
+    justify-content: flex-end;
+    background-image: url('../images/about/me-right.png');
+    background-size: auto 90%;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+#aboutMe .col:last-child .description {
+    text-align: justify;
+    text-align-last: right;
+}
+
+#aboutMe .title {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#aboutMe .description {
+    font-size: 1rem;
+}
+
+@media (min-width: 992px) {
+    #aboutMe .col {
+        height: 100vh;
+    }
+   
+    #aboutMe .col > .about-container {
+        width: 350px;
+    }
+
+    #aboutMe .col:first-child {
+        padding-left: 3rem;
+    }
+
+    #aboutMe .col:last-child {
+        padding-right: 3rem;
+    }
+}
+/* About Section End */
+
+/* MySkills Section Start */
+#mySkills {
+    height: 100vh;
+}
+
+#mySkills .card {
+    margin-top: 1.5rem;
+    overflow: hidden;
+}
+
+#mySkills .card-title {
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+#mySkills .card, #mySkills .card * {
+    color: #ffffff;
+    background: transparent;
+}
+
+#mySkills .card .card-body {
+    background-color: rgba(0, 0, 0, 0.75);
+}
+/* MySkills Section End */

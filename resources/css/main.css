@@ -1,0 +1,122 @@
+/* Imported Fonts */
+@import url('https://fonts.cdnfonts.com/css/friz-quadrata-std');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* CSS Reset Start */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+}
+
+.subtitle {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
+
+html, body {
+    scroll-behavior: smooth;
+    cursor: auto, default;
+}
+
+body {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+}
+
+textarea:focus, input:focus, button:focus, button:active, a:focus, *:focus, .btn:focus, .form-control:focus {
+	box-shadow: none;
+	outline: none;
+}
+
+input:focus::placeholder { color: transparent; }
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; }
+input:focus::-moz-placeholder { color:transparent; }
+input:focus:-ms-input-placeholder { color:transparent; }
+
+a, button {
+    text-decoration: none;
+	cursor: pointer;
+}
+
+img {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	-webkit-user-drag: none;
+	-khtml-user-drag: none;
+	-moz-user-drag: none;
+	-o-user-drag: none;
+	pointer-events: none;
+}
+
+.nav-link, .nav-item .nav-link, .nav-tabs .nav-link {
+    border: 0;
+    font-family: 'Friz Quadrata Std', sans-serif;
+    color: #e1d37b;
+    font-size: 1.25rem;
+}
+
+.nav-link:hover, .nav-item .nav-link:hover, .nav-tabs .nav-link:hover {
+    border: 0;
+    color: #d2bc4c;
+}
+
+.nav-link.active, .nav-item .nav-link.active, .nav-tabs .nav-link.active {
+    border: 0;
+    color: #b88e28;
+    background-color: transparent;
+}
+
+.nav-tabs {
+    border-color: #b88e28;
+}
+/* CSS Reset End */
+
+/* Navbar Section Start */
+.navbar {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.navbar * {
+    color: #ffffff;
+}
+
+.navbar-brand img {
+    height: 2rem;
+}
+
+.navbar .navbar-toggler {
+    border-color: #d2bc4c;
+    font-size: 1.5rem;
+}
+
+.navbar .navbar-toggler * {
+    color: #e1d37b;
+}
+
+.navbar-brand .navbar-brand-text {
+    line-height: 1.25rem;
+    font-size: 1rem;
+}
+/* Navbar Section End */

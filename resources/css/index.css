@@ -1,0 +1,75 @@
+body {
+    background-image: url('https://iili.io/H0Oprf2.jpg');
+}
+
+#landing-page {
+    height: 100vh;
+    width: 100vw;
+}
+
+#landing-page .profile-text {
+    text-align: center;
+    align-self: flex-start;
+}
+
+#landing-page .profile-text *:not(.title) {
+    text-shadow: 2px 2px #000000;
+}
+
+#landing-page .title {
+    background: linear-gradient(to top, #ff0000, #ffff00);
+    background-size: 100% 100%;
+    background-clip: text;
+    font-size: 3rem;
+    color: transparent;
+    filter: drop-shadow(2px 2px #000000);
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-filter: drop-shadow(2px 2px #000000);
+}
+
+#landing-page .subtitle {
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+    font-size: 2rem;
+}
+
+#landing-page .brief-intro {
+    font-size: 1.5rem;
+}
+
+#landing-page .profile-img {
+    width: 50vw;
+}
+
+#landing-page .profile-text .btn {
+    margin-top: 1.5rem;
+    text-shadow: none;
+}
+
+
+@media (min-width: 992px) {
+    #landing-page .profile-text {
+        align-self: center;
+        text-align: left;
+    }
+
+    #landing-page .subtitle {
+        font-size: 1.25rem;
+    }
+    
+    #landing-page .brief-intro {
+        font-size: 1.25rem;
+    }
+    
+    #landing-page .profile-img {
+        max-width: 25rem;
+    }
+
+    #landing-page .profile-text .btn {
+        margin-top: 0;
+    }
+}

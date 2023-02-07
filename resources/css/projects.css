@@ -1,0 +1,43 @@
+body {
+    background-image: url('https://iili.io/H1DnUIp.jpg');
+}
+
+/* Projects Section Start */
+#projects {
+    padding: 5rem 0 0;
+}
+
+#projects .tab-content {
+    padding-top: 1rem;
+}
+
+#projects .carousel-item {
+    position: relative;
+    height: 300px;
+    width: 100%;
+}
+
+#projects .carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+#projects .carousel-item .carousel-caption {
+    margin: 0 auto;
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+@media (min-width: 768px) {
+    #projects .carousel-item {
+        height: 400px;
+    }
+}
+
+@media (min-width: 992px) {
+    #projects .carousel-item {
+        height: 500px;
+    }
+}
+/* Projects Section End */

@@ -1,0 +1,94 @@
+body {
+    background-image: url('https://iili.io/H1UKjLX.jpg');
+    background-color: rgba(255, 0, 0, 1);
+    background-blend-mode: darken;
+}
+
+#bg-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: -100;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+#contactMe {
+    height: 100vh;
+    width: 100vw;
+}
+
+#contactMe .form-container {
+    padding: 2.25rem;
+    position: relative;
+}
+
+#contactMe .form-container form {
+    padding: 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background-color: rgba(75, 75, 75, 0.75);
+    position: relative;
+}
+
+#contactMe form .title {
+    position: absolute;
+    top: 0;
+    left: 1rem;
+    font-size: 1.75rem;
+    transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+}
+
+#contactMe .img-border {
+    position: absolute;
+    height: 50%;
+    z-index: 100;
+}
+
+#contactMe .img-top-right {
+    top: 0;
+    right: 0;
+}
+
+#contactMe .img-bottom-left {
+    bottom: 0;
+    left: 0;
+
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+#contactMe form .form-group:not(:last-child) {
+    margin-bottom: 0.5rem;
+}
+
+#contactMe form .btn-container {
+    position: absolute;
+    right: 1rem;
+    bottom: -0.5rem;
+    transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -o-transform: translateY(100%);
+}
+
+@media (min-width: 768px) {
+    #contactMe .form-container {
+        width: 80vw;
+    }
+}
+
+@media (min-width: 992px) {
+    #contactMe .form-container {
+        max-width: 600px;
+    }
+}
