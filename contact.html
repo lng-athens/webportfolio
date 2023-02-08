@@ -60,24 +60,24 @@
 <section id="contactMe" class="container-fluid row align-items-center justify-content-center p-0 m-0">
     <div class="form-container" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
         <img src="./resources/images/contact/border_corner.svg" alt="border_corner.svg" class="img-border img-top-right" />
-        <form action="./resources/includes/sendmail.inc.php">
+        <form id="contactForm" action="https://docs.google.com/forms/d/e/1FAIpQLSd04Zq2sGBtEQyeOIiuf1qhi6voJP_V_5qN4GobEi56wO1i6A/formResponse?">
             <h1 class="title">Contact Me</h1>
             
             <div class="form-group">
                 <label for="name">Name:</label>
-                <input type="text" name="name" id="name" class="form-control" placeholder="Enter full name here" required="true">
+                <input type="text" name="entry.1155717788" id="name" class="form-control" placeholder="Enter full name here" required="true">
             </div>
             <div class="form-group">
                 <label for="email">Email:</label>
-                <input type="email" name="email" id="email" class="form-control" placeholder="sample@mail.com" required="true" autocomplete="yes">
+                <input type="email" name="entry.1471940273" id="email" class="form-control" placeholder="sample@mail.com" required="true" autocomplete="yes">
             </div>
             <div class="form-group">
                 <label for="subject">Subject:</label>
-                <input type="text" name="subject" id="subject" class="form-control" placeholder="What is it about?" required="true">
+                <input type="text" name="entry.1523251807" id="subject" class="form-control" placeholder="What is it about?" required="true">
             </div>
             <div class="form-group">
                 <label for="msg">Message:</label>
-                <textarea name="msg" id="msg" rows="5" class="form-control" required="true"></textarea>
+                <textarea name="entry.898815628" id="msg" rows="5" class="form-control" required="true"></textarea>
             </div>
             <div class="btn-container">
                 <button type="reset" class="btn btn-secondary">Reset</button>
@@ -94,5 +94,6 @@
 <!-- Custom JS -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>AOS.init();</script>
+<script src="./resources/js/contact.js"></script>
 </body>
 </html>
