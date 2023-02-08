@@ -1,5 +1,23 @@
 body {
-    background-image: url('https://iili.io/HEHKIuj.jpg');
+    background-image: url('https://iili.io/HECXba9.jpg');
+}
+
+@media (min-width: 768px) {
+    body {
+        background-image: url('https://iili.io/HECh6S1.jpg');
+    }
+}
+
+@media (min-width: 992px) {
+    body {
+        background-image: url('https://iili.io/HECjfV4.jpg');
+    }
+}
+
+@media (min-width: 1400px) {
+    body {
+        background-image: url('https://iili.io/HECw5pn.jpg');
+    }
 }
 
 #landing-page {
