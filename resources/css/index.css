@@ -14,7 +14,7 @@ body {
     }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
     body {
         background-image: url('https://iili.io/HECw5pn.jpg');
     }
