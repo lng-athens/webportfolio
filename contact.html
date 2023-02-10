@@ -60,7 +60,7 @@
 <section id="contactMe" class="container-fluid row align-items-center justify-content-center p-0 m-0">
     <div class="form-container" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
         <img src="./resources/images/contact/border_corner.svg" alt="border_corner.svg" class="img-border img-top-right" />
-        <form id="contactForm" action="https://docs.google.com/forms/d/e/1FAIpQLSd04Zq2sGBtEQyeOIiuf1qhi6voJP_V_5qN4GobEi56wO1i6A/formResponse?">
+        <form name="contactForm" id="contactForm" action="https://docs.google.com/forms/d/e/1FAIpQLSd04Zq2sGBtEQyeOIiuf1qhi6voJP_V_5qN4GobEi56wO1i6A/formResponse?" enctype="text/plain" target="hidden_iframe" onsubmit="submitted=true;">
             <h1 class="title">Contact Me</h1>
             
             <div class="form-group">
@@ -87,6 +87,24 @@
         <img src="./resources/images/contact/border_corner.svg" alt="border_corner.svg" class="img-border img-bottom-left" />
     </div>
 </section>
+
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+<div class="modal fade" name="formSubmit" id="formSubmit" tabindex="-1" aria-labelledby="form_submit" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        <div class="modal-header bg-success">
+            <h1 class="modal-title fs-5" id="form_submit">Message sent!</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-black">
+            Please wait within 5 &ndash; 10 business days for my response. Thank you!
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+        </div>
+    </div>
+</div>
 
 <!-- jQuery JS and Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.6.3.slim.min.js" integrity="sha256-ZwqZIVdD3iXNyGHbSYdsmWP//UBokj2FHAxKuSBKDSo=" crossorigin="anonymous"></script>
