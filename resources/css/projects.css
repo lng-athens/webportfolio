@@ -30,7 +30,6 @@ body {
 }
 
 #projects .carousel-item {
-    position: relative;
     height: 300px;
     width: 100%;
 }
