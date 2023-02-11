@@ -1,23 +1,5 @@
 body {
-    background-image: url('https://iili.io/HECNuMx.jpg');
-}
-
-@media (min-width: 768px) {
-    body {
-        background-image: url('https://iili.io/HECNlAF.jpg');
-    }
-}
-
-@media (min-width: 992px) {
-    body {
-        background-image: url('https://iili.io/HECN1ta.jpg');
-    }
-}
-
-@media (min-width: 1200px) {
-    body {
-        background-image: url('https://iili.io/HECNXFp.jpg');
-    }
+    background-image: url('../images/aesthetic-black-1200x675.jpg');
 }
 
 /* Projects Section Start */

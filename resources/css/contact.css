@@ -1,25 +1,7 @@
 body {
-    background-image: url('https://iili.io/HECNQDu.jpg');
+    background-image: url('../images/circuit-board-1200x675.jpg');
     background-color: rgba(255, 0, 0, 1);
     background-blend-mode: darken;
-}
-
-@media (min-width: 768px) {
-    body {
-        background-image: url('https://iili.io/HECO9UB.jpg');
-    }
-}
-
-@media (min-width: 992px) {
-    body {
-        background-image: url('https://iili.io/HECOubn.jpg');
-    }
-}
-
-@media (min-width: 1200px) {
-    body {
-        background-image: url('https://iili.io/HECOXWb.jpg');
-    }
 }
 
 #bg-overlay {

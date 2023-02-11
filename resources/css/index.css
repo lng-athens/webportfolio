@@ -1,23 +1,5 @@
 body {
-    background-image: url('https://iili.io/HECXba9.jpg');
-}
-
-@media (min-width: 768px) {
-    body {
-        background-image: url('https://iili.io/HECh6S1.jpg');
-    }
-}
-
-@media (min-width: 992px) {
-    body {
-        background-image: url('https://iili.io/HECjfV4.jpg');
-    }
-}
-
-@media (min-width: 1200px) {
-    body {
-        background-image: url('https://iili.io/HECw5pn.jpg');
-    }
+    background-image: url('../images/network-1200x675.jpg');
 }
 
 #landing-page {
