@@ -85,6 +85,23 @@ img {
     background-color: transparent;
 }
 
+.sm-icons {
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sm-icons .nav-item:not(:last-child) {
+    padding-right: 1em;
+}
+
+.sm-icons .nav-link i {
+    color: #e1d37b;
+}
+
+.sm-icons .nav-link:hover i {
+    color: #d2bc4c;
+}
+
 .nav-tabs {
     border-color: #b88e28;
 }
