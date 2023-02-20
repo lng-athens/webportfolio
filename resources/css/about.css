@@ -95,8 +95,11 @@ body {
 }
 
 #mySkills .card {
-    margin-top: 1.5rem;
     overflow: hidden;
+}
+
+#mySkills h1.title {
+    line-height: 100%;
 }
 
 #mySkills .card-title {
@@ -113,3 +116,9 @@ body {
     background-color: rgba(0, 0, 0, 0.75);
 }
 /* MySkills Section End */
+
+/* Hobbies Section Start */
+#hobbies {
+    min-height: 100vh;
+}
+/* Hobbies Section End */
