@@ -7,22 +7,25 @@ body {
 }
 
 /* About Section Start */
-#aboutMe {
+#landing {
     padding-top: 5rem;
     background-color: #ffffff;
 }
 
-#aboutMe .col {
+#landing .col {
     padding: 0;
+    padding-top: 2.5rem;
     height: calc(50vh - 2.5rem);
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    font-weight: 600;
 }
 
-#aboutMe .col > .about-container {
-    padding: 0.5rem 1rem;
+#landing .col > .about-container {
+    padding: 1rem 1.25rem;
     width: 60%;
-    background-color: rgba(0, 0, 0, 0.75);
+    color: #000000;
+    background-color: rgba(0, 255, 255, 0.5);
     
     border-radius: 1rem;
     -webkit-border-radius: 1rem;
@@ -31,7 +34,7 @@ body {
     -o-border-radius: 1rem;
 }
 
-#aboutMe .col:first-child {
+#landing .col:first-child {
     padding-left: 1rem;
     justify-content: flex-start;
     background-image: url('../images/about/me-left.png');
@@ -40,11 +43,11 @@ body {
     background-position: bottom right;
 }
 
-#aboutMe .col:first-child .description {
+#landing .col:first-child .description {
     text-align: justify;
 }
 
-#aboutMe .col:last-child {
+#landing .col:last-child {
     padding-right: 1rem;
     justify-content: flex-end;
     background-image: url('../images/about/me-right.png');
@@ -53,41 +56,55 @@ body {
     background-position: bottom left;
 }
 
-#aboutMe .col:last-child .description {
+#landing .col:last-child .description {
     text-align: justify;
     text-align-last: right;
 }
 
-#aboutMe .title {
+#landing .title {
     font-size: 1.5rem;
     text-align: center;
 }
 
-#aboutMe .description {
+#landing .description {
     font-size: 1rem;
 }
 
+@media (min-width: 768px) {
+    #landing .col {
+        padding-top: 5rem;
+    }
+}
+
 @media (min-width: 992px) {
-    #aboutMe {
+    #landing {
         padding-top: 0;
     }
-    #aboutMe .col {
+
+    #landing .col {
+        padding-top: 10rem;
         height: 100vh;
     }
    
-    #aboutMe .col > .about-container {
+    #landing .col > .about-container {
         width: 350px;
     }
 
-    #aboutMe .col:first-child {
-        padding-left: 3rem;
+    #landing .col:first-child {
+        padding-left: 1rem;
     }
 
-    #aboutMe .col:last-child {
-        padding-right: 3rem;
+    #landing .col:last-child {
+        padding-right: 1rem;
     }
 }
 /* About Section End */
+
+/* Hobbies Section Start */
+#hobbies {
+    min-height: 100vh;
+}
+/* Hobbies Section End */
 
 /* MySkills Section Start */
 #mySkills {
@@ -116,9 +133,3 @@ body {
     background-color: rgba(0, 0, 0, 0.75);
 }
 /* MySkills Section End */
-
-/* Hobbies Section Start */
-#hobbies {
-    min-height: 100vh;
-}
-/* Hobbies Section End */
