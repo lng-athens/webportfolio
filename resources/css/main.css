@@ -105,6 +105,17 @@ img {
 .nav-tabs {
     border-color: #b88e28;
 }
+
+#img-unavailable {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-color: #000000;
+    background-image: url("../images/page-under-construction.gif");
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 /* CSS Reset End */
 
 /* Navbar Section Start */
