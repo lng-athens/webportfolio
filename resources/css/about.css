@@ -100,8 +100,21 @@ body {
 }
 /* Landing Section End */
 
-/* About Me Section Start */
-#aboutMe {
+/* Info Container Start */
+.info-container {
     min-height: 100vh;
 }
-/* About Me Section End */
+
+.info-container .card {
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.info-container .card * {
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.info-container .card .card-title {
+    color: #e1d37b;
+}
+/* Info Container End */
