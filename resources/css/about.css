@@ -6,7 +6,7 @@ body {
     background-color: rgba(0, 0, 0, 0.75);
 }
 
-/* About Section Start */
+/* Landing Section Start */
 #landing {
     padding-top: 5rem;
     background-color: #ffffff;
@@ -98,39 +98,10 @@ body {
         padding-right: 1rem;
     }
 }
-/* About Section End */
+/* Landing Section End */
 
-/* Hobbies Section Start */
-#hobbies {
-    height: 100vh;
-    background-color: #000000;
+/* About Me Section Start */
+#aboutMe {
+    min-height: 100vh;
 }
-/* Hobbies Section End */
-
-/* MySkills Section Start */
-#mySkills {
-    height: 100vh;
-}
-
-#mySkills .card {
-    overflow: hidden;
-}
-
-#mySkills h1.title {
-    line-height: 100%;
-}
-
-#mySkills .card-title {
-    font-size: 1.25rem;
-    text-align: center;
-}
-
-#mySkills .card, #mySkills .card * {
-    color: #ffffff;
-    background: transparent;
-}
-
-#mySkills .card .card-body {
-    background-color: rgba(0, 0, 0, 0.75);
-}
-/* MySkills Section End */
+/* About Me Section End */
